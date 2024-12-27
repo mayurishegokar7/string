@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+   char s1[40],s2[40];
+   int i,j,l;
+   printf("enter string 1:");
+   fgets(s1,40,stdin);
+   l=strlen(s1);
+   s2[l]=s1[l];
+   l=l-1;
+   for(j=0;l>=0;j++){
+   s2[j]=s1[l];
+   l=l-1;}
+   printf("%s",s2);
+}
