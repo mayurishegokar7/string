@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+   char s1[40], s2[40];
+   printf("enter the string to copy:");
+   fgets(s1,40,stdin);
+   strcpy(s2,s1);
+   printf("%s",& s2);
+   
+   return 0;
+}
