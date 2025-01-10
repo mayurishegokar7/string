@@ -3,7 +3,7 @@
 int main()
 {
    char s1[40],s2[40];
-   int i,j,l;
+   int j,l;
    printf("enter string 1:");
    fgets(s1,40,stdin);
    l=strlen(s1);
